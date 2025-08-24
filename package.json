@@ -1,11 +1,12 @@
 {
-  "name": "lektion-1-intro",
+  "name": "ws_uppgifter_node",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --loader ts-node/esm src/index.ts"
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
